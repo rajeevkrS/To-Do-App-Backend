@@ -27,5 +27,5 @@ A simple Todo Web App made using Express
 
 # Screenshots
 
-<img src='snaps/todo-snap'>
+<img src='snaps/todo-snap.png'>
 
