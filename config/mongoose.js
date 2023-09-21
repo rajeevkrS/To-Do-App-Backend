@@ -1,8 +1,11 @@
 // required mongoose 
-const mongoose=require('mongoose');
+const mongoose = require('mongoose');
+
+// storing the db on mongo atlas
+const DB = "mongodb+srv://rajeevkrs:rajeevkr.450@cluster0.xigfak7.mongodb.net/?retryWrites=true&w=majority";
 
 // connected to the db
-mongoose.connect('mongodb://127.0.0.1/todolist_db');
+// const DB = mongoose.connect('mongodb://127.0.0.1/todolist_db');
 
 // acquired connection to db
 const db=mongoose.connection;
